@@ -1,0 +1,31 @@
+<!--
+ * @Author: wy
+ * @Date: 2023-12-20 17:00:06
+ * @LastEditors: wy
+ * @LastEditTime: 2023-12-20 17:01:28
+ * @FilePath: /笔记/web-engineer/03_iife/index.html
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var x = 1;
+        window.__module = {
+          getX: () => {
+            return x;
+          },
+          setX: (val) => {
+            x = val;
+          },
+        };
+      })();
+    </script>
+  </body>
+</html>
