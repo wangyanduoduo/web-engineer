@@ -1,19 +1,24 @@
-<!DOCTYPE html>
-<html>
-  <head lang="en">
-    <meta charset="utf-8" />
-    <title>最家</title>
-  <script defer src="bundle_3fe5d673.js"></script></head>
-  <body>
+<!--
+ * @Author: wy
+ * @Date: 2023-12-25 17:09:55
+ * @LastEditors: wy
+ * @LastEditTime: 2023-12-26 17:27:02
+ * @FilePath: /笔记/web-engineer/project-test/src/pages/index.vue
+ * @Description: 
+-->
+<template>
+  <div>
     <!------------------------------head------------------------------>
     <div class="head">
       <div class="wrapper clearfix">
         <div class="clearfix" id="top">
           <h1 class="fl">
-            <a href="index.html"><img src="../src/img/logo.png" /></a>
+            <a href="index.html"><img src="img/logo.png" /></a>
           </h1>
           <div class="fr clearfix" id="top1">
             <p class="fl">
+              <!-- <router-link to="/login" id="login">登录</router-link>
+              <a href="#" id="login" @click="redirectToLogin">登录</a> -->
               <a href="login.html" id="login">登录</a>
               <a href="#" id="reg">注册</a>
             </p>
@@ -22,11 +27,11 @@
               <input type="button" />
             </form>
             <div class="btn fl clearfix">
-              <a href="mygxin.html"><img src="../src/img/grzx.png" /></a>
-              <a href="#" class="er1"><img src="../src/img/ewm.png" /></a>
-              <a href="cart.html"><img src="../src/img/gwc.png" /></a>
+              <a href="mygxin.html"><img src="img/grzx.png" /></a>
+              <a href="#" class="er1"><img src="img/ewm.png" /></a>
+              <a href="cart.html"><img src="img/gwc.png" /></a>
               <p>
-                <a href="#"><img src="../src/img/smewm.png" /></a>
+                <a href="#"><img src="img/smewm.png" /></a>
               </p>
             </div>
           </div>
@@ -39,31 +44,31 @@
               <div class="wrapper clearfix">
                 <a href="paint.html">
                   <dl>
-                    <dt><img src="../src/img/nav1.jpg" /></dt>
+                    <dt><img src="img/nav1.jpg" /></dt>
                     <dd>浓情欧式</dd>
                   </dl>
                 </a>
                 <a href="paint.html">
                   <dl>
-                    <dt><img src="../src/img/nav2.jpg" /></dt>
+                    <dt><img src="img/nav2.jpg" /></dt>
                     <dd>浪漫美式</dd>
                   </dl>
                 </a>
                 <a href="paint.html">
                   <dl>
-                    <dt><img src="../src/img/nav3.jpg" /></dt>
+                    <dt><img src="img/nav3.jpg" /></dt>
                     <dd>雅致中式</dd>
                   </dl>
                 </a>
                 <a href="paint.html">
                   <dl>
-                    <dt><img src="../src/img/nav6.jpg" /></dt>
+                    <dt><img src="img/nav6.jpg" /></dt>
                     <dd>简约现代</dd>
                   </dl>
                 </a>
                 <a href="paint.html">
                   <dl>
-                    <dt><img src="../src/img/nav7.jpg" /></dt>
+                    <dt><img src="img/nav7.jpg" /></dt>
                     <dd>创意装饰</dd>
                   </dl>
                 </a>
@@ -100,12 +105,12 @@
         <ul class="slides">
           <li>
             <div class="slide">
-              <img src="../src/img/banner2.jpg" />
+              <img src="img/banner2.jpg" />
             </div>
           </li>
           <li>
             <div class="slide">
-              <img src="../src/img/banner1.jpg" />
+              <img src="img/banner1.jpg" />
             </div>
           </li>
         </ul>
@@ -115,51 +120,51 @@
     <!------------------------------thImg------------------------------>
     <div class="thImg">
       <div class="clearfix">
-        <a href="vase_proList.html"><img src="../src/img/i1.jpg" /></a>
-        <a href="proList.html"><img src="../src/img/i2.jpg" /></a>
-        <a href="#2"><img src="../src/img/i3.jpg" /></a>
+        <a href="vase_proList.html"><img src="img/i1.jpg" /></a>
+        <a href="proList.html"><img src="img/i2.jpg" /></a>
+        <a href="#2"><img src="img/i3.jpg" /></a>
       </div>
     </div>
 
     <!------------------------------news------------------------------>
     <div class="news">
       <div class="wrapper">
-        <h2><img src="../src/img/ih1.jpg" /></h2>
+        <h2><img src="img/ih1.jpg" /></h2>
         <div class="top clearfix">
           <a href="proDetail.html"
-            ><img src="../src/img/n1.jpg" />
+            ><img src="img/n1.jpg" />
             <p></p
           ></a>
           <a href="proDetail.html"
-            ><img src="../src/img/n2.jpg" />
+            ><img src="img/n2.jpg" />
             <p></p
           ></a>
           <a href="proDetail.html"
-            ><img src="../src/img/n3.jpg" />
+            ><img src="img/n3.jpg" />
             <p></p
           ></a>
         </div>
         <div class="bott clearfix">
           <a href="proDetail.html"
-            ><img src="../src/img/n4.jpg" />
+            ><img src="img/n4.jpg" />
             <p></p
           ></a>
           <a href="proDetail.html"
-            ><img src="../src/img/n5.jpg" />
+            ><img src="img/n5.jpg" />
             <p></p
           ></a>
           <a href="proDetail.html"
-            ><img src="../src/img/n6.jpg" />
+            ><img src="img/n6.jpg" />
             <p></p
           ></a>
         </div>
-        <h2><img src="../src/img/ih2.jpg" /></h2>
+        <h2><img src="img/ih2.jpg" /></h2>
         <div class="flower clearfix tran">
           <a href="proDetail.html" class="clearfix">
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/flo1.jpg" />
+                <img src="img/flo1.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【花艺】七头美丽玫瑰仿真花束</dd>
@@ -170,7 +175,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/flo2.jpg" />
+                <img src="img/flo2.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【花艺】七头美丽玫瑰仿真花束</dd>
@@ -181,7 +186,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/flo3.jpg" />
+                <img src="img/flo3.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【花艺】七头美丽玫瑰仿真花束</dd>
@@ -194,7 +199,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/flo4.jpg" />
+                <img src="img/flo4.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【花艺】七头美丽玫瑰仿真花束</dd>
@@ -205,7 +210,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/flo5.jpg" />
+                <img src="img/flo5.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【花艺】七头美丽玫瑰仿真花束</dd>
@@ -216,7 +221,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/flo6.jpg" />
+                <img src="img/flo6.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【花艺】七头美丽玫瑰仿真花束</dd>
@@ -228,18 +233,18 @@
     </div>
 
     <!------------------------------ad------------------------------>
-    <a href="#" class="ad"><img src="../src/img/ib1.jpg" /></a>
+    <a href="#" class="ad"><img src="img/ib1.jpg" /></a>
 
     <!------------------------------people------------------------------>
     <div class="people">
       <div class="wrapper">
-        <h2><img src="../src/img/ih3.jpg" /></h2>
+        <h2><img src="img/ih3.jpg" /></h2>
         <div class="pList clearfix tran">
           <a href="proDetail.html">
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s7.jpg" />
+                <img src="img/s7.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】不锈钢壁饰墙饰软装</dd>
@@ -250,7 +255,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s10.jpg" />
+                <img src="img/s10.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】小城动物木板画壁挂北欧</dd>
@@ -261,7 +266,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s4.jpg" />
+                <img src="img/s4.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】玄关假山水壁饰背景墙饰挂件创意</dd>
@@ -272,7 +277,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s9.jpg" />
+                <img src="img/s9.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】金属树枝壁饰铜鸟装饰品</dd>
@@ -285,7 +290,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s6.jpg" />
+                <img src="img/s6.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】金属壁饰创意背景墙面挂件创意</dd>
@@ -296,7 +301,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s8.jpg" />
+                <img src="img/s8.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】小城动物木板画壁挂北欧</dd>
@@ -307,7 +312,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s12.jpg" />
+                <img src="img/s12.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】欧式复古挂钟创意餐厅钟表家居挂件</dd>
@@ -318,7 +323,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s1.jpg" />
+                <img src="img/s1.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】客厅地中海欧式现代相片墙创意</dd>
@@ -331,7 +336,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s5.jpg" />
+                <img src="img/s5.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】铁艺荷叶壁挂软装背景墙上装饰品</dd>
@@ -342,7 +347,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s3.jpg" />
+                <img src="img/s3.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】欧式照片墙 创意组合结婚礼物</dd>
@@ -353,7 +358,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s2.jpg" />
+                <img src="img/s2.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】欧式钟表相框墙挂墙创意组合</dd>
@@ -364,7 +369,7 @@
             <dl>
               <dt>
                 <span class="abl"></span>
-                <img src="../src/img/s11.jpg" />
+                <img src="img/s11.jpg" />
                 <span class="abr"></span>
               </dt>
               <dd>【最家】小城动物木板画壁挂北欧</dd>
@@ -378,25 +383,25 @@
     <div class="gotop">
       <a href="cart.html">
         <dl>
-          <dt><img src="../src/img/gt1.png" /></dt>
+          <dt><img src="img/gt1.png" /></dt>
           <dd>去购<br />物车</dd>
         </dl>
       </a>
       <a href="#" class="dh">
         <dl>
-          <dt><img src="../src/img/gt2.png" /></dt>
+          <dt><img src="img/gt2.png" /></dt>
           <dd>联系<br />客服</dd>
         </dl>
       </a>
       <a href="mygxin.html">
         <dl>
-          <dt><img src="../src/img/gt3.png" /></dt>
+          <dt><img src="img/gt3.png" /></dt>
           <dd>个人<br />中心</dd>
         </dl>
       </a>
       <a href="#" class="toptop" style="display: none">
         <dl>
-          <dt><img src="../src/img/gt4.png" /></dt>
+          <dt><img src="img/gt4.png" /></dt>
           <dd>返回<br />顶部</dd>
         </dl>
       </a>
@@ -409,19 +414,19 @@
       <div class="top">
         <div class="wrapper">
           <div class="clearfix">
-            <a href="#2" class="fl"><img src="../src/img/foot1.png" /></a>
+            <a href="#2" class="fl"><img src="img/foot1.png" /></a>
             <span class="fl">7天无理由退货</span>
           </div>
           <div class="clearfix">
-            <a href="#2" class="fl"><img src="../src/img/foot2.png" /></a>
+            <a href="#2" class="fl"><img src="img/foot2.png" /></a>
             <span class="fl">15天免费换货</span>
           </div>
           <div class="clearfix">
-            <a href="#2" class="fl"><img src="../src/img/foot3.png" /></a>
+            <a href="#2" class="fl"><img src="img/foot3.png" /></a>
             <span class="fl">满599包邮</span>
           </div>
           <div class="clearfix">
-            <a href="#2" class="fl"><img src="../src/img/foot4.png" /></a>
+            <a href="#2" class="fl"><img src="img/foot4.png" /></a>
             <span class="fl">手机特色服务</span>
           </div>
         </div>
@@ -431,7 +436,32 @@
         违法和不良信息举报电话：400-800-8200，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
       </p>
     </div>
+  </div>
+</template>
 
-    </script>
-  </body>
-</html>
+<script>
+import '../css/public.css';
+import '../css/index.css';
+
+import 'jquery';
+import '../js/public.js';
+import '../js/nav.js';
+import { useRouter } from 'vue-router';
+export default {
+  setup() {
+    const router = useRouter();
+
+    // 使用 router.push
+    const redirectToLogin = (event) => {
+      event.preventDefault();
+      router.push({ path: '/login' });
+    };
+
+    return {
+      redirectToLogin,
+    };
+  },
+};
+</script>
+
+<style scope></style>
