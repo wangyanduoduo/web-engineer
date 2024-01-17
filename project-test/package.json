@@ -9,12 +9,16 @@
     "start:mpa": "webpack-dev-server --config build/mpa.config.js",
     "build": "webpack --config build/webpack.config.js",
     "build:vue": "webpack --config build/vue.config.js",
-    "build:mpa": "webpack --config build/mpa.config.js"
+    "build:mpa": "webpack --config build/mpa.config.js",
+    "start:wy": "wy-build start --debug",
+    "start-vue:wy": "wy-build start --config wy-build-vue-config.js --debug",
+    "start-vue-cli:wy": "wy-build start --config wy-build-vue-cli-config.js --stop-build --debug"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
@@ -29,6 +33,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@vue/cli": "^5.0.8",
     "@vue/compiler-sfc": "^3.3.13",
     "flexslider": "^2.7.2",
     "jquery": "^3.7.1",

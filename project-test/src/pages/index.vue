@@ -2,7 +2,7 @@
  * @Author: wy
  * @Date: 2023-12-25 17:09:55
  * @LastEditors: wy
- * @LastEditTime: 2023-12-26 17:27:02
+ * @LastEditTime: 2024-01-16 13:58:07
  * @FilePath: /笔记/web-engineer/project-test/src/pages/index.vue
  * @Description: 
 -->
@@ -17,9 +17,9 @@
           </h1>
           <div class="fr clearfix" id="top1">
             <p class="fl">
-              <!-- <router-link to="/login" id="login">登录</router-link>
-              <a href="#" id="login" @click="redirectToLogin">登录</a> -->
-              <a href="login.html" id="login">登录</a>
+              <router-link to="/login" id="login">登录</router-link>
+              <a href="#" id="login" @click="redirectToLogin">登录</a>
+              <!-- <a href="login.html" id="login">登录</a> -->
               <a href="#" id="reg">注册</a>
             </p>
             <form action="#" method="get" class="fl">
